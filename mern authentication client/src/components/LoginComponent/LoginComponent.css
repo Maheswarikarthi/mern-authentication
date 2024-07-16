@@ -1,0 +1,66 @@
+/* General container styling */
+.class {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Title styling */
+.class h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Form and input container styling */
+.class form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Label and input field styling */
+.class1, .class2 {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.class1 label, .class2 label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.class1 input, .class2 input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+/* Button container styling */
+.class3 {
+  margin-top: 20px;
+}
+
+.class3 button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.class3 button:hover {
+  background-color: blue;
+}
